@@ -11,5 +11,9 @@ let twoArr;
 let threeArr;
     threeArr = time[Math.floor(Math.random()*5)]
 
-console.log(`${oneArr}, ${twoArr} ${threeArr}!`)
+    const genArr = () => {
+        return `${oneArr}, ${twoArr} ${threeArr}!`
+    };
+    console.log(genArr()) 
+    
 
